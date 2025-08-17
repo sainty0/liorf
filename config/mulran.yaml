@@ -71,7 +71,7 @@
     surroundingKeyframeMapLeafSize: 0.5           # downsample local map point cloud
 
     # Loop closure
-    loopClosureEnableFlag: true
+    loopClosureEnableFlag: false #set to false for our purposes
     loopClosureFrequency: 1.0                     # Hz, regulate loop closure constraint add frequency
     surroundingKeyframeSize: 50                   # submap size (when loop closure enabled)
     historyKeyframeSearchRadius: 15.0             # meters, key frame that is within n meters from current pose will be considerd for loop closure
